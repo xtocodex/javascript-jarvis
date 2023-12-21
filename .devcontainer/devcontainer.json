@@ -14,7 +14,7 @@
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "yarn install",
 
-	// Configure tool-specific properties.
+	// Configure tool-specific properties and style.
 	"customizations": {
 		"vscode": {
 			"extensions": [
