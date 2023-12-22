@@ -23,6 +23,26 @@ let score = "33abc"  // also check by let undefined,null etc.
 //let booleanIsLoggedIn = Boolean(isLoggedIn)
 //console.log(booleanIsLoggedIn);
 
-let someNumber = 33
-let stringNumber = String(someNumber)
-console.log(stringNumber);
+//let someNumber = 33
+//let stringNumber = String(someNumber)
+//console.log(stringNumber);
+
+///************* OPERATIONS ************///
+
+//let value = 3
+//let negValue = -value
+//console.log(negValue)
+
+//also we have more opern.'s like
+
+//console.log(+true); // Never ever use such as these are not used in real life coding environments
+//console.log(+"");  // "" "" ""
+
+let num1, num2, num3
+num1 = num2 = num3 = 2 + 2
+
+let gameCounter = 100
+gameCounter++;
+console.log(gameCounter);
+
+// Go to MDN PrefixPostFix Operation/Operators and do some exercise.. 
