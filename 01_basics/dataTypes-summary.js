@@ -43,3 +43,14 @@ const myFunction = function(){
 console.log(typeof myFunction); // take others and check there typeof all const taken above.. then readDoc
 
 // Read typeof more info-  https://262.ecma-international.org/5.1/#sec-11.4.3
+
+// Undefined	"undefined"
+/*
+TYPE OF VAL -->> RESULT
+Null	--->>"object"
+Boolean	--->>"boolean"
+Number	--->>"number"
+String	--->>"string"
+Object (native and does not implement [[Call]])---->	"object"
+Object (native or host and does implement [[Call]])--->	"function"
+Object (host and does not implement [[Call]])--->>Implementation-defined except may not be "undefined", "boolean", "number", or "string".           */
