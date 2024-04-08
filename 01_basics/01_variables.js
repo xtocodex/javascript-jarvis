@@ -24,3 +24,5 @@ console.table([accountId, accountEmail, accountPassword, accountCity, accountSta
 // tabular structure to showcase and save data..
 
 
+
+
