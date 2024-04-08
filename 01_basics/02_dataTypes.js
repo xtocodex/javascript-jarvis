@@ -1,10 +1,10 @@
-"use strict"; // trats all JS Code as newer version 
+"use strict"; // treat all JS Code as newer version 
 
 // alert(2 + 2) 
 // we are using nodejs not browser so we get error here but it gives popup answer in browser console
 // but we will know how to use it here later.
 
-// 
+//Let's assume u write->  console.log(3 + 3); console.log("Jarvis");
 // above is very bad code practise don't write like this although it will run
 // but it is not future proof readablity is poor; should be neat and high..
 
@@ -21,8 +21,9 @@ let state = null
 // bigint (used to store veryy>>> large value/num used in trading sys,algo etc.)
 // string =>""
 // boolean => true/false
-// null => standalone value means doesn't has any value but not ZERO.
-// undefined => (no value has been assigned)
+// *null => standalone value means doesn't has any value but not ZERO. (VERY IMPORTANT....)
+// undefined => (no value has been assigned) (VERY IMPORTANT....)
+// please -- understand (null vs undefined)...
 // symbol => unique
 // object
 
